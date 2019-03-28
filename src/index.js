@@ -1,7 +1,7 @@
 import React, { Component, useState, useEffect } from 'react';
 import { render } from 'react-dom';
-import QuoteBox from './app/components/QuoteBox';
-import './app/styles/style.scss';
+import QuoteBox from './components/QuoteBox';
+import './styles/style.scss';
 
 const App = () => (
   <div className="box-layout">
